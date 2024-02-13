@@ -1,0 +1,113 @@
+body {
+    font-family: courier;
+    margin: 0;
+    padding: 0;
+    background-color: #ee97e5;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+    padding: 5%;
+    background-color: #ee97e5;
+    border-radius: 0vw;
+    text-align: center;
+  }
+  .question {
+    font-size: 5vw;
+    margin-top: -5vw;
+    margin-bottom: 0vw;
+  }
+  .question1 {
+    font-size: 5vw;
+    margin-top: -5vw;
+    margin-bottom: 0vw;
+  }
+  .pf {
+    font-size: 5vw;
+    margin-top: -5vw;
+    margin-bottom: -3vw;
+  }
+  .limotext {
+    font-size: 2vw;
+    margin-top: 0vw;
+    margin-bottom: -1vw;
+  }
+  .answers {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -5vw;
+    margin-bottom: 1vw;
+  }
+  .answer-btn {
+    padding: 2vw 1vw;
+    margin: 2vw;
+    background-color: #fff;
+    color: #ee97e5;
+    font-size: 2vw;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 2vw;
+    width: 40%;
+    max-width: 20vw;
+  }
+  .answer-btn:hover {
+    opacity: 90%;
+    background-color: #f4f4f4;
+  }
+  .limo-img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 1vw;
+  }
+  .jamnik-img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 1vw;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -4vw;
+    margin-bottom: 1vw;
+  }
+  .buttons-btn {
+    padding: 1vw 1vw;
+    margin: 2vw;
+    background-color: #fff;
+    color: #ee97e5;
+    font-size: 2vw;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 2vw;
+    width: 40%;
+    max-width: 15vw;
+  }
+  .buttons-btn:hover {
+    opacity: 90%;
+    background-color: #f4f4f4;
+  }
+  .picturesgallery
+{
+    margin-top: -5vw;
+    display:grid; 
+    grid-template-columns: repeat(3,1fr);
+}
+
+.pictures
+{
+    float: left;
+    height: 20vw;
+    width: 20vw;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 0.5vw;
+}
+  
